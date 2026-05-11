@@ -493,21 +493,47 @@
     </main>
     <footer class="bg-[#D1D1FF]">
       <div class="w-screen mt-3">
-      <div class="flex items-center justify-between px-4 py-3">
+      <div class="flex items-start justify-evenly sm:justify-between md:auto  px-2 sm:px-4 md:px-auto py-3">
         <div
             class="text-[#00008F] font-bold leading-[12px] border-[#00008F] border-x-4 bg-white p-3 rounded-lg"
           >
             <p>SPORT<br />BUDDY</p>
           </div>
-        <div>
-            <ul class="flex gap-5">
-              <li><a class="hover:underline" href="#">About</a></li>
-              <li><a class="hover:underline" href="#">Support</a></li>
-              <li><a class="hover:underline" href="#">Find Us</a></li>
+        <div class="grid grid-cols-3 gap-3 md:gap-15">
+          <div>
+            <h2 class="mb-2 text-xs sm:text-sm font-semibold text-heading uppercase">About</h2>
+            <ul class="text-body text-xs sm:text-sm">
+              <li class="mb-1"><a class="hover:underline" href="#">Our Story</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Careers</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Our Team</a></li>
             </ul>
-          </div>
             </div>
-            <hr class="mt-4 border-default md:mx-auto lg:mt-6" />
+          <div>
+            <h2 class="mb-2 text-xs sm:text-sm font-semibold text-heading uppercase">Support</h2>
+            <ul class="text-body text-xs sm:text-sm">
+              <li class="mb-1"><a class="hover:underline" href="#">FAQ</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Contact</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Help Center</a></li>
+            </ul>
+            </div>
+          <div>
+            <h2 class="mb-2 text-xs sm:text-sm font-semibold text-heading uppercase">Find Us</h2>
+            <ul class="text-body text-xs sm:text-sm">
+              <li class="mb-1"><a class="hover:underline" href="#">Events</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Location</a></li>
+              <li class="mb-1"><a class="hover:underline" href="#">Newsletter</a></li>
+            </ul>
+            </div>
+          </div>
+          </div>
+            <div class="flex flex-row justify-evenly md:justify-end md:px-10 md:gap-18">
+            <img src="/src/assets/instagram.png" class="w-5">
+            <img src="/src/assets/whatsapp.png" class="w-5">
+            <img src="/src/assets/facebook.png" class="w-5"> 
+            <img src="/src/assets/youtube.png" class="w-5">
+            </div>
+            <!-- border line -->
+            <hr class="mt-4 border-default border-gray-500 md:mx-auto lg:mt-6" />
           <span class="block text-xs text-center text-gray-700 p-3">© 2026 SPORT BUDDY. All Rights Reserved.</span>
         </div>
       </footer>
