@@ -109,17 +109,21 @@
         </div>
       </section>
       <!-- <section class="our mission"></section> -->
-      <section class="flex flex-row items-center justify-center py-5">
-        <div class="grid grid-cols-2 gap-2 items-center">
-          <div class="relative flex justify-center">
+      <section
+        class="flex items-center justify-center ml-2 my-4 py-10 bg-[#D1D1FF]"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-2"
+        >
+          <div class="relative flex justify-center m-4">
             <img
               src="./src/assets/badminton.png"
               alt="badminton"
-              class="rounded-md w-40 md:w-80 lg:w-100"
+              class="rounded-md w-full md:w-100 lg:w-100"
             />
           </div>
-          <div class="space-y-5 space-x-5">
-            <h1 class="text-2xl md:text-3xl text-black font-semibold">
+          <div class="space-y-5 space-x-5 ml-5">
+            <h1 class="text-2xl md:text-3xl text-[#00008F] font-semibold">
               We help you to find your perfect sports buddy
             </h1>
             <p class="font-small text-lg">
@@ -127,17 +131,19 @@
               easy to find teammates, training partners, and active communities
               anywhere.
             </p>
-            <div class="grid md:grid-cols-3 gap-6 pt-4">
+            <div
+              class="grid grid-cols-3 place-content-around text-[#00008F] pt-4"
+            >
               <div>
-                <h2 class="text-4xl font-bold">5k+</h2>
+                <h2 class="text-3xl font-semibold">5k+</h2>
                 <p class="text-lg mt-2 font-medium">Active Players</p>
               </div>
               <div>
-                <h2 class="text-4xl font-bold">1k+</h2>
+                <h2 class="text-3xl font-semibold">1k+</h2>
                 <p class="text-lg mt-2 font-medium">Matches Created</p>
               </div>
               <div>
-                <h2 class="text-4xl font-bold">100+</h2>
+                <h2 class="text-3xl font-semibold">100+</h2>
                 <p class="text-lg mt-2 font-medium">Sports communities</p>
               </div>
             </div>
@@ -207,7 +213,7 @@
       <section>
         <div>
           <h2
-            class="flex justify-center my-5 pt-4 font-bold text-2xl md:text-4xl"
+            class="flex justify-center my-5 pt-4 font-bold text-2xl text-[#00008F] md:text-4xl"
           >
             Our Popular Sports
           </h2>
@@ -218,7 +224,7 @@
               <img
                 src="./src/assets/football.png"
                 alt="football"
-                class="rounded-md w-40 md:w-70 lg:w-80 mx-6 my-6"
+                class="w-full h-56 object-cover"
               />
               <p class="font-semibold text-2xl py-4 mx-6">Football</p>
               <div class="space-y-4 text-gray-700 mx-6">
@@ -258,7 +264,7 @@
               <img
                 src="./src/assets/badminton.png"
                 alt="football"
-                class="rounded-md w-40 md:w-70 lg:w-80 mx-6 my-6"
+                class="w-full h-56 object-cover"
               />
               <p class="font-semibold text-2xl py-4 mx-6">Badminton</p>
               <div class="space-y-4 text-gray-700 mx-6">
@@ -298,7 +304,7 @@
               <img
                 src="./src/assets/basketball.png"
                 alt="football"
-                class="rounded-md w-40 md:w-70 lg:w-80 mx-6 my-6"
+                class="w-full h-56 object-cover"
               />
               <p class="font-semibold text-2xl py-4 mx-6">Basketball</p>
               <div class="space-y-4 text-gray-700 mx-6">
@@ -337,108 +343,88 @@
       </section>
       <!-- <section class="reviews"></section> -->
       <section id="reviews" class="py-16 bg-white">
-  <div class="max-w-md mx-auto px-4">
-    <h2 class="text-2xl md:text-3xl text-[#00008F] font-semibold text-center mb-8">
-      What our users say about Sport Buddy
-    </h2>
-    <!-- Carousel -->
-    <div tabindex="0"
-      class="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4
-      [-ms-overflow-style:none] [scrollbar-width:none]
-             [&::-webkit-scrollbar]:hidden
-             
-      md:[scrollbar-width:auto]  md:[&::-webkit-scrollbar]:block
-        md:[&::-webkit-scrollbar]:h-2
-        md:[&::-webkit-scrollbar-track]:bg-gray-200
-        md:[&::-webkit-scrollbar-thumb]:bg-gray-400
-        md:[&::-webkit-scrollbar-thumb]:rounded-full    
+        <div class="max-w-md mx-auto px-4">
+          <h2
+            class="text-2xl md:text-3xl text-[#00008F] font-semibold text-center mb-8"
+          >
+            What our users say about Sport Buddy
+          </h2>
+          <!-- Carousel -->
+          <div
+            tabindex="0"
+            class="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:[scrollbar-width:auto] md:[&::-webkit-scrollbar]:block md:[&::-webkit-scrollbar]:h-2 md:[&::-webkit-scrollbar-track]:bg-gray-200 md:[&::-webkit-scrollbar-thumb]:bg-gray-400 md:[&::-webkit-scrollbar-thumb]:rounded-full focus:outline-none"
+          >
+            <!-- Slide 1 -->
+            <div
+              class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden"
+            >
+              <img
+                src=" https://placedog.net/300/?id=3"
+                alt="User 1"
+                class="w-full h-56 object-cover"
+              />
 
-        focus:outline-none
-             "
-    >
-      <!-- Slide 1 -->
-      <div
-        class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden "
-      >
-        <img
-          src=" https://placedog.net/300/?id=3"
-          alt="User 1"
-          class="w-full h-56 object-cover"
-        >
+              <div class="p-6">
+                <p class="text-gray-600 italic mb-4">
+                  "Now I have not only fun coding, but also found new friends to
+                  go roller skating with"
+                </p>
 
-        <div class="p-6">
-          <p class="text-gray-600 italic mb-4">
-            "Now I have not only fun coding, but also found new friends to go roller skating with"
-          </p>
+                <h3 class="font-bold text-lg">Ada Lovelace</h3>
 
-          <h3 class="font-bold text-lg">
-            Ada Lovelace
-          </h3>
+                <span class="text-sm text-gray-600"> Berlin </span>
+              </div>
+            </div>
 
-          <span class="text-sm text-gray-600">
-            Berlin
-          </span>
+            <!-- Slide 2 -->
+            <div
+              class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden"
+            >
+              <img
+                src=" https://placedog.net/300/?id=23 "
+                alt="User 2"
+                class="w-full h-56 object-cover"
+              />
+
+              <div class="p-6">
+                <p class="text-gray-600 italic mb-4">
+                  "(P)Awesome community and super easy to use app."
+                </p>
+
+                <h3 class="font-bold text-lg">Marla Singer</h3>
+
+                <span class="text-sm text-gray-600"> Bremen </span>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden"
+            >
+              <img
+                src=" https://placedog.net/300/?id=84"
+                alt="User 3"
+                class="w-full h-56 object-cover"
+              />
+
+              <div class="p-6">
+                <p class="text-gray-600 italic mb-4">
+                  "I didnt know anybody in this town, with Sport Buddy I found 3
+                  different hiking groups close to me"
+                </p>
+
+                <h3 class="font-bold text-lg">Otto</h3>
+
+                <span class="text-sm text-gray-600"> Galway </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div
-        class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden "
-      >
-        <img
-          src=" https://placedog.net/300/?id=23 "
-          alt="User 2"
-          class="w-full h-56 object-cover"
-        >
-
-        <div class="p-6">
-          <p class="text-gray-600 italic mb-4">
-            "(P)Awesome community and super easy to use app."
-          </p>
-
-          <h3 class="font-bold text-lg">
-            Marla Singer
-          </h3>
-
-          <span class="text-sm text-gray-600">
-            Bremen
-          </span>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div
-        class="min-w-full snap-center bg-[#D1D1FF] rounded-2xl shadow-lg overflow-hidden "
-      >
-        <img
-          src=" https://placedog.net/300/?id=84"
-          alt="User 3"
-          class="w-full h-56 object-cover"
-        >
-
-        <div class="p-6">
-          <p class="text-gray-600 italic mb-4">
-            "I didnt know anybody in this town, with Sport Buddy I found 3 different hiking groups close to me"
-          </p>
-
-          <h3 class="font-bold text-lg">
-            Otto
-          </h3>
-
-          <span class="text-sm text-gray-600">
-            Galway
-          </span>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+      </section>
       <!-- <section class="contact-us"></section> -->
       <section
         id="contactUs"
-        class="w-full flex items-center justify-center py-10"
+        class="w-full flex items-center justify-center md:py-10"
       >
         <div
           class="w-screen md:w-2/3 lg:w-1/2 bg-white flex flex-col items-center justify-center m-5"
